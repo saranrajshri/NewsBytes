@@ -1,0 +1,10 @@
+{
+    "development": {
+      "MONGO_URI": "mongodb://127.0.0.1:27017/newsbytes",
+      "secret": "abc"
+    },
+    "production": {
+      "MONGO_URI": "mongodb+srv://saran123:saran123@cluster0.i6air.mongodb.net/<dbname>?retryWrites=true&w=majority",
+      "secret": "abc"
+    }
+  }
